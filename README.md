@@ -1,12 +1,48 @@
 # React + Vite
+# React CRUD Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project that demonstrates **CRUD operations** – Create, Read, Update, and Delete. It's useful for learning how to manage data in a React app.
 
-Currently, two official plugins are available:
+## 🔄 What is CRUD?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CRUD stands for:
 
-## Expanding the ESLint configuration
+- **C** – Create: Add new data
+- **R** – Read: Display or view data
+- **U** – Update: Edit existing data
+- **D** – Delete: Remove data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+These are the basic operations used in most applications like to-do lists, user management systems, etc.
+
+## 📁 Project Structure
+
+CRUD-React/
+├── public/
+├── src/
+│ ├── App.jsx // Main component
+│ ├── Data.jsx // Data state and logic
+│ ├── App.css // Styling
+│ ├── main.jsx // Entry point
+│ └── index.css // Global styles
+├── index.html
+├── package.json
+└── README.md
+
+
+## ⚙️ Features
+
+- Add new records (Create)
+- Display data in a table/list (Read)
+- Edit existing records (Update)
+- Remove records (Delete)
+- Clean and responsive UI
+
+- 
+🧠 Technologies Used
+ReactJS – Frontend framework
+Vite – Development build tool
+JavaScript – For logic
+CSS – Styling
+
+📌 Purpose
+This project is for beginners who want to understand how CRUD operations work in a React app. It's a great starting point before working with backend APIs or databases.
